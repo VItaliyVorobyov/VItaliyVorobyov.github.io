@@ -80,6 +80,52 @@ main a:focus {
 .main-info {
     box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
     height: 217px;
+    padding: 45px 40px;
     border-radius: 0 0 15px 15px;
     background-color: #FFF;
+}
+
+.text-info {
+    width: 50%;
+    display: inline-block;
+}
+
+.text-info h2 {
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.text-info h2 span {
+    color: #2eca7f;
+}
+
+.text-info p {
+    font-size: 15px;
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+.text-info button {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 1.5em;
+    line-height: 2.8;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-info button:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.details {
+    width: 50%;
+    display: inline-block;
 }
