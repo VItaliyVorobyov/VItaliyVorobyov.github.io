@@ -47,6 +47,7 @@ header nav a:last-child {
     border: 3px solid #2eca7f;
     border-radius: 100px;
     padding: 10px;
+    margin-right: 0;
     transition: all 0.2s ease-in-out;
 }
 
