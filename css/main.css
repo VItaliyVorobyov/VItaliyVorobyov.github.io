@@ -1,15 +1,30 @@
-/*
-color: #2eca7f; green
-color: #49515d; gray
-font-family: 'Montserrat', Helvetica, sans-serif;
-*/
+main {
+    max-width: 1032px;
+    margin: auto;
+    padding: 0 10px;    
+}
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    background: url("/img/main_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #f5f5f5;
+.main-header {
+    height: 205px;
+    padding: 50px;
+    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+    background-color: #2eca7f;
+    border-radius: 15px 15px 0 0;
+}
+
+.main-header img {
+    width: 274px;
+    height: 274px;
+    border: 3px solid #FFF;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+}
+
+
+
+
+.main-info {
+    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+    height: 217px;
+    border-radius: 0 0 15px 15px;
+    background-color: #FFF;
 }
