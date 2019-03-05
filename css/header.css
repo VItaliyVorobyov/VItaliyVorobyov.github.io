@@ -1,0 +1,47 @@
+header {
+    max-width: 1032px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+}
+
+header h1 {
+    margin: 0;
+    color: #49515d;
+    font-size: 20px;
+    display: inline-block;
+}
+
+header h1 span {
+    color: #2eca7f;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav a {
+    margin: 0 20px;
+    padding: 4px 0;
+    text-decoration: none;
+    color: #49515d;
+    opacity: 0.6;
+}
+
+header nav a:hover {
+    opacity: 1;
+    border-bottom: 2px solid #2eca7f;
+}
+
+header nav a:last-child {
+    opacity: 1;
+    border: 3px solid #2eca7f;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+header nav a:last-child:hover {
+    background-color: #2eca7f;
+    color: #FFF;
+}
