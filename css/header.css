@@ -28,11 +28,13 @@ header nav a {
     text-decoration: none;
     color: #49515d;
     opacity: 0.6;
+    transition: all 0.1s ease-in-out;
 }
 
 header nav a:hover {
     opacity: 1;
     border-bottom: 2px solid #2eca7f;
+    transition: all 0.1s ease-in-out;
 }
 
 header nav a:last-child {
@@ -40,9 +42,11 @@ header nav a:last-child {
     border: 3px solid #2eca7f;
     border-radius: 100px;
     padding: 10px;
+    transition: all 0.2s ease-in-out;
 }
 
 header nav a:last-child:hover {
     background-color: #2eca7f;
     color: #FFF;
+    transition: all 0.2s ease-in-out;
 }
